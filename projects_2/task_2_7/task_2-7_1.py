@@ -10,4 +10,5 @@ for name in files:
     print(f"Файл подготовлен: {new_name}")
 
 print("-" * 30)
-print("Готово!")
+
+print("Готово")
