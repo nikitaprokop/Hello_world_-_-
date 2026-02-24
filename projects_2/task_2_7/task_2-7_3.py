@@ -1,4 +1,4 @@
-sequences = ["ATATACGCGTA", "CTTCGGNGGA"]
+sequences = ["ATATACGCGTA", "CCTCGGNGGA"]
 
 print("Начинаем анализ последовательностей...")
 print("=" * 40)
@@ -13,4 +13,5 @@ for seq in sequences:
     print("\n" + "-" * 30)
 
 print("\n" + "=" * 40)
+
 print(" Цикл выполнен!")
