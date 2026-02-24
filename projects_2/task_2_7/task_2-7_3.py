@@ -14,4 +14,5 @@ for seq in sequences:
 
 print("\n" + "=" * 40)
 
-print(" Цикл выполнен!")
+print(" Цикл выполнен")
+
