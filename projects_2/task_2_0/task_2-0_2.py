@@ -1,4 +1,4 @@
-name = input("👋 Как вас зовут? ")
+name = input(" Как вас зовут? ")
 
 
 current_year = 2026
@@ -46,5 +46,6 @@ print("╚" + "═" * 30 + "╝")
 
 print("\n🐍", "Python", "ROCKS", sep=" ✦ ", end=" !!!\n")
 print("~" * 40)
+
 
 
