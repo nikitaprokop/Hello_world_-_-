@@ -1,12 +1,7 @@
-weight = float(input("Введите ваш вес (кг): "))
-height_cm = float(input("Введите ваш рост (см): "))
+protein = float(input("Введите массу белков (г): "))
+fat = float(input("Введите массу жиров (г): "))
+carbohydrates = float(input("Введите массу углеводов (г): "))
 
-height_m = height_cm / 100
+calories = (protein * 4) + (fat * 9) + (carbohydrates * 4)
 
-bmi = weight / (height_m ** 2)
-
-print("\n--- Отчет о состоянии здоровья ---")
-print(f"Рост:\t{height_cm:.1f} см")
-print(f"Вес:\t{weight:.1f} кг")
-print(f"Индекс массы тела:\t{bmi:.2f}")
-
+print(f"\nОбщая калорийность продукта: {calories:.2f} ккал")

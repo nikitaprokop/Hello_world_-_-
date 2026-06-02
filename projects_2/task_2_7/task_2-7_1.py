@@ -1,6 +1,6 @@
-files = ["seq1", "seq2", "seq3", "seq4"]
+files = ["code1", "code2", "code3", "code4"]
 
-sample_date = "2026-02-23"
+sample_date = input("Дата:")
 
 print("Обработка файлов:")
 print("-" * 30)
@@ -10,5 +10,4 @@ for name in files:
     print(f"Файл подготовлен: {new_name}")
 
 print("-" * 30)
-
-print("Готово")
+print("Готово!")

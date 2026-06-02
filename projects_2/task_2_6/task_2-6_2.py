@@ -1,15 +1,12 @@
-donor_blood = input("Введите группу крови донора (I, II, III, IV): ").strip().upper()
-recipient_blood = input("Введите группу крови пациента (I, II, III, IV): ").strip().upper()
 
-print(f"\nДонор: {donor_blood}, Пациент: {recipient_blood}")
-print("-" * 30)
+x = float(input("Введите число X: "))
+y = float(input("Введите число Y: "))
 
-if donor_blood == recipient_blood:
-    print(" Переливание возможно: группы крови совпадают.")
-elif donor_blood == "I":
-    print(" Переливание возможно: донор с группой I (0) — универсальный донор.")
+
+if x > y:
+    max_value = x
 else:
-    print(" Переливание НЕВОЗМОЖНО: группы несовместимы.")
+    max_value = y
 
-print("\nПримечание: Группа I (0) является универсальной для донорства.")
 
+print("Максимальное число:", max_value)
