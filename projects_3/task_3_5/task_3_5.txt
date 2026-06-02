@@ -1,0 +1,13 @@
+nik@DESKTOP-TAKP9US:~$ wget -O Treponema_pallidum.fna.gz https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/410/535/GCF_000410535.2_ASM41053v2/GCF_000410535.2_ASM41053v2_genomic.fna.gz
+--2026-04-06 17:03:33--  https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/410/535/GCF_000410535.2_ASM41053v2/GCF_000410535.2_ASM41053v2_genomic.fna.gz
+Resolving ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)... 130.14.250.31, 130.14.250.7, 2607:f220:41e:250::11, ...
+Connecting to ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)|130.14.250.31|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 340746 (333K) [application/x-gzip]
+Saving to: ‘Treponema_pallidum.fna.gz’
+
+Treponema_pallidum.fna.gz     100%[=================================================>] 332.76K   403KB/s    in 0.8s
+
+2026-04-06 17:03:35 (403 KB/s) - ‘Treponema_pallidum.fna.gz’ saved [340746/340746]
+
+nik@DESKTOP-TAKP9US:~$
